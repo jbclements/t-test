@@ -3,7 +3,7 @@
 
 (provide student-t-test welch-t-test)
 
-;; given two sequences of numbers, return the one-tailed p-value
+;; given two sequences of numbers, return the two-tailed p-value
 ;; of the student's t-test. If #:t-statistic is true, return instead
 ;; the t-statistic. Note that if the two variances are not known
 ;; to be equal, the welch's t-test (below) is probably a better
@@ -39,7 +39,7 @@
   
      (t-statistic->p-value t-statistic degrees-of-freedom)]))
 
-;; compute the one-tailed p-value of a Welch's t-test
+;; compute the two-tailed p-value of a Welch's t-test
 ;; on the two given sequences of real numbers.
 (define (welch-t-test [S1 : (Sequenceof Real)]
                       [S2 : (Sequenceof Real)]
