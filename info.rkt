@@ -7,6 +7,7 @@
                "typed-racket-lib"))
 (define build-deps '("racket-doc"
                      "rackunit-typed"
-                     "scribble-lib"))
+                     "scribble-lib"
+                     "math-doc"))
 
 (define scribblings '(("t-test.scrbl" ())))
