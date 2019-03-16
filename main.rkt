@@ -128,7 +128,7 @@
   (check-= (student-t-test wikipedia-l1 wikipedia-l2 #:t-statistic #t)
    1.959 1e-3)
   
-  ;; tests from rosettacode.com
+  ;; tests from rosettacode.com, via Tim Brown
   (check-=
    (welch-t-test
     (list 27.5 21.0 19.0 23.6 17.0 17.9 16.9 20.1 21.9 22.6 23.1
