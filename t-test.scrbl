@@ -84,7 +84,10 @@ This function uses the "Student's t-test", rather than Welch's
 t-test.
 }
 
+@section{Acknowledgments}
 
+Many thanks to Tim Brown for posting his translation of the C
+code for Welch's t-test to Rosetta Code.
 
 
 
